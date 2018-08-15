@@ -4,6 +4,9 @@ provider:
   name: aws
   runtime: nodejs6.10
 
+tenant: eahefnawy
+app: demo
+
 functions:
   hello:
     handler: handler.hello
