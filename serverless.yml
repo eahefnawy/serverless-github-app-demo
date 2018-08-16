@@ -2,11 +2,10 @@ service: platform-github-app-test
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejss6.10
 
 tenant: eahefnawy
 app: demo
-
 
 functions:
   hello:
