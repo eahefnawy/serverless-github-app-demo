@@ -2,7 +2,7 @@ service: platform-github-app-test
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejss6.10
 
 tenant: eahefnawy
 app: demo
@@ -11,4 +11,4 @@ app: demo
 functions:
   hello:
     handler: handler.hello
-    memory: afsa
+    memory: 512
