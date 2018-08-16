@@ -7,6 +7,7 @@ provider:
 tenant: eahefnawy
 app: demo
 
+
 functions:
   hello:
     handler: handler.hello
