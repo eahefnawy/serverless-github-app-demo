@@ -10,4 +10,4 @@ app: demo
 functions:
   hello:
     handler: handler.hello
-    memory: 512
+    memory: 1024
